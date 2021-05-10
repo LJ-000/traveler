@@ -1,0 +1,184 @@
+{
+    "restaurants": [
+
+{
+"Location": "Dubai",
+"Restaurant Name": "Social House",
+"Price Range": "$$$",
+"Ratings": "4 Stars",
+"Food Type": "Chinese",
+"Restaurant Image": "https://fryingpanadventures.com/wp-content/uploads/2020/10/image-131.jpeg",
+"Covid Precautions": "Outdoor Dining",
+"Restaurant Website": "https://www.alabbarenterprises.com/brands/social-house"
+},
+
+{
+"Location Name": "Dubai",
+"Restaurant Name": "Texas De Brazil",
+"Price Range": "$$",
+"Ratings": "5 Stars",
+"Food Type": "Brazilian",
+"Restaurant Image": "https://d1bv4heaa2n05k.cloudfront.net/user-images/1460016524839/shutterstock-309267611_main_1460016531797.jpeg",
+"Covid Precautions":  "No Outdoor Dining",
+"Restaurant Website": "gourmetgulf.com" 
+},
+
+{
+"Location": "Dubai",
+"Restaurant Name": "Tresind Dubai",
+"Price Range": "$$$$",
+"Ratings": "5 stars",
+"Food Type": "Indian",
+"Restaurant Image": "https://www.onceuponachef.com/images/2012/09/Chicken-Kebabs.jpg",
+"Covid Precautions":  "No Outdoor Dining",
+"Restaurant Website":"tresind.com"
+},
+
+{
+"Restaurant Name": "Amazonico Dubai",
+"Price Range": "$$$",
+"Ratings": "5 Stars",
+"Food Type": "Spanish",
+"Restaurant Image": "https://dynaimage.cdn.cnn.com/cnn/q_auto,w_900,c_fill,g_auto,h_506,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F160929095729-essential-spanish-dish-fideua-brindisa.jpg",
+"Covid Precautions": "Outdoor Dining",
+"Restaurant Website": "amazonicorestaurant.com"
+},
+
+{
+"Location": "Dubai",
+"Restaurant Name": "Hakkasan Dubai",
+"Price Range": "$$",
+"Ratings": "5 Stars",
+"Food Type": "Chinese",
+"Restaurant Image":"https://i.ndtvimg.com/i/2017-08/noodles-620x350_620x350_41502436420.jpg",
+"Covid Precautions": "Outdoor Dining",
+"Restaurant Website": "https://www.atlantis.com/dubai/restaurants/hakkasan?utm_source=googleplaces&utm_medium=location&utm_content=listings&utm_campaign=hakkasan"
+},
+
+{
+"Location": "Tokyo",
+"Restaurant Name": "Sakuratei",
+"Price Range": "$$$",
+"Ratings": "4.5 Stars",
+"Food Type": "Japanese, Asian, Grill",
+"Restaurant Image": "https://media-cdn.tripadvisor.com/media/photo-s/18/96/ca/94/caption.jpg,
+https://media.timeout.com/images/105297131/630/472/image.jpg,
+https://media.timeout.com/images/105297135/630/472/image.jpg",
+"Covid Precautions": "No Outdoor Dining",
+"Restaurant Website": "https://www.sakuratei.co.jp/en/"
+},
+
+{
+"Location": "Tokyo",
+"Restaurant Name": "Gyopao Gyoza Shinjuku",
+"Price Range": "$$",
+"Ratings": "5 Stars",
+"Food Type": "Chinese, Asian, Taiwanese",
+"Restaurant Image": "https://media-cdn.tripadvisor.com/media/photo-s/1b/e3/b4/a1/caption.jpg,
+https://gyopao-shinjuku.com/wp-content/uploads/2020/06/%E5%AD%A3%E7%AF%80%E3%81%AE%E7%94%9F%E6%90%BE%E3%82%8A%E3%82%B5%E3%83%AF%E3%83%BC.jpg,
+https://gyopao-shinjuku.com/wp-content/uploads/2019/07/%E3%82%89%E3%81%A3%E3%81%A4-023.jpg",
+"Covid Precautions": "No Outdoor Dining",
+"Restaurant Website": "https://gyopao-shinjuku.com/"
+},
+
+{
+"Location": "Tokyo",
+"Restaurant Name": "Yakumo Saryo",
+"Price Range": "$$$$",
+"Ratings": "4.5 Stars",
+"Food Type": "Japanese, Japanese-Traditional Cuisine, Kaiseki",
+"Restaurant Image": "https://media.timeout.com/images/102827727/630/472/image.jpg,
+https://blog.toryburch.com/wp-content/uploads/2018/01/Resort-2018_RTW_Yakumo-Saryo_360.jpg,
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3tQol1sG8DAzSbmmbRcYJVTmyyfX2xtsLSQ&usqp=CAU",
+"Covid Precautions":  "Outdoor Dining",
+"Restaurant Website": "https://yakumosaryo.jp/e/"
+},
+
+{
+"Location": "Tokyo",
+"Restaurant Name": "Kobe Beef 511",
+"Price Range": "$$$$",
+"Ratings": "4.5 Stars",
+"Food Type": "Japanese, Steakhouse, Asian",
+"Restaurant Image":"https://cdn-japantimes.com/wp-content/uploads/2014/10/cg-restaurants-5112.jpg,
+https://www.tokyotimes.com/wp-content/uploads/2010/11/8407e591445ff121d62cd44d78cf542b1.jpg,
+https://japanrestaurant.net/wp/wp-content/uploads/2018/06/imgxKzxzX-330x196.jpg",
+"Covid Precautions":  "No Outdoor Dining",
+"Restaurant Website": "https://kobebeef511.jp/en/"
+},
+
+{
+"Location": "Tokyo",
+"Restaurant Name": "Han no Daidokoro Honten",
+"Price Range": "$$$$",
+"Ratings": "5 Stars",
+"Food Type": "Japanese, Steakhouse, Barbeque",
+"Restaurant Image": "https://media.cntraveler.com/photos/5c928d05bf833e107935b53e/16:9/w_2560%2Cc_limit/Han-no-Daidokoro_Mark-Parren-Taylor_2019-_TCO2998_MPT_HR.jpg,
+https://favy-inbound-singapore.s3.amazonaws.com/uploads/topic_item/image/34737/retina_shibuya2.jpg,
+https://resources.matcha-jp.com/resize/720x2000/2017/04/05-23430.jpeg",
+"Covid Precautions": "No Outdoor Dining",
+"Restaurant Website": "https://gurunavi.com/en/a143503/rst/?__ngt__=TT11cb87643005ac1e4a5a19UHtMMvxrhL_rrarwYvdejE"
+},
+
+{
+"Location": "NYC",
+"Restaurant": "Vestry",
+"Price Range": "$$$$",
+"Ratings":" 5 Stars",
+"Food Type": "Seafood, American",
+"Restaurant Image": "https://2486634c787a971a3554-d983ce57e4c84901daded0f67d5a004f.ssl.cf1.rackcdn.com/the-vestry-full-site/media/the-vestry-restaurant-gallery-7-5f7c8ddc6562b.jpg,
+https://2486634c787a971a3554-d983ce57e4c84901daded0f67d5a004f.ssl.cf1.rackcdn.com/the-vestry-full-site/media/vestry-gallery-5-5e850a81de9b0.jpg,
+https://2486634c787a971a3554-d983ce57e4c84901daded0f67d5a004f.ssl.cf1.rackcdn.com/the-vestry-full-site/media/the-vestry-restaurant-gallery-1-5e7bb9f1b5cef.jpg",
+"Covid Precautions": "Outdoor Dining" ,
+"Restaurant Website": "https://www.vestrynyc.com/"
+},
+
+{
+"Location": "NYC",
+"Restaurant": "abriel Kreuther",
+"Price Range": "$$$$",
+"Ratings": "4.6 Stars",
+"Food Type": "French, Contemporary, Vegetarian-Friendly",
+"Restaurant Image": "https://resizer.otstatic.com/v2/photos/wide-huge/1/25852906.jpg,
+https://images.squarespace-cdn.com/content/v1/5b81a4e59f8770d7938eeefb/1535223949843-AC6Q5MHCZS5YESPIHKMO/ke17ZwdGBToddI8pDm48kDEDYh4Y0JGhR6hzuwcJ44gUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcz6bs2FkMoqlrQIzq4g5ogDqXr_T7rMikH_TfPkEE4wwzGwe9KEhUq6A0DxOZf-75/UgrRuaBPS0O7KHh2FXBo_sturgeon+and+sauerkraut+tart%2C+with+american+caviar+mousseline+and+applewood+smoke.jpg?format=2500w,
+https://media.timeout.com/images/105289839/630/472/image.jpg",
+"Restaurant Website": "https://www.gabrielkreuthernyc.com/"
+},
+
+{
+"Restaurant": "Le Bernardin",
+"Price Range": "$$$$",
+"Ratings": "4.7 Stars",
+"Food Type": "Seafood, French, Vegetarian-Friendly",
+"Restaurant Image": "https://www.shawmut.com/assets/images/back_end/portfolio/1_1423232488_LeBernardin-NYC_4.jpg,
+https://i.insider.com/5251f98eeab8eac7683a7ba2?width=600&format=jpeg&auto=webp,
+https://www.theworlds50best.com/filestore/jpg/LaBernadin-WORLD-2019-DISH1-min.jpg",
+"Covid Precautions":  "No Outdoor Dining",
+"Restaurant Website": "https://www.le-bernardin.com/"
+},
+
+{
+"Restaurant": "Momofuku Ko",
+"Price Range": "$$$$",
+"Ratings": "4.5 Stars",
+"Food Type": "International, Asian, Fusion", 
+"Restaurant Image": "https://rs.wescover.com/c_limit,f_auto,q_auto,w_500/v1/wescover-image-store/kqjtfw8k7ivufwuqyza0,
+https://momofuku-assets.s3.amazonaws.com/uploads/sites/11/2018/03/Duck_pie_resize-1440x590.jpg,
+https://robbreport.com/wp-content/uploads/2013/02/1480111.jpg?w=692",
+"Covid Precautions":  "Outdoor Dining",
+"Restaurant Website": "https://ko.momofuku.com/"
+},
+
+{
+"Restaurant": "ISODI",
+"Price Range": "$$$",
+"Ratings": "4.5 Stars",
+"Food Type": "Italian",
+"Restaurant Image": "https://media.timeout.com/images/100262129/630/472/image.jpg,
+https://images.squarespace-cdn.com/content/v1/56e9548fab48de7b7fc48949/1494444977882-ATI62C1HJC201Z51I3QK/ke17ZwdGBToddI8pDm48kFWxnDtCdRm2WA9rXcwtIYR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UcTSrQkGwCGRqSxozz07hWZrYGYYH8sg4qn8Lpf9k1pYMHPsat2_S1jaQY3SwdyaXg/SL+cacio+e+pepe+.jpg?format=1000w,
+https://static01.nyt.com/images/2014/12/07/t-magazine/07holiday-arena-isodi-slide-U5W6/07holiday-arena-isodi-slide-U5W6-jumbo.jpg",
+"Covid Precautions":  "No Outdoor Dining",
+"Restaurant Website": "https://www.isodinyc.com/"
+}
+
+]}
