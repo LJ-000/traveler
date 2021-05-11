@@ -1,6 +1,5 @@
 {
     "restaurants": [
-
 {
 "Id": 1,
 "Location": "Dubai",
@@ -12,7 +11,6 @@
 "Precautions": "Outdoor Dining",
 "Website": "https://www.alabbarenterprises.com/brands/social-house"
 },
-
 {
 "Id": 2,
 "Location": "Dubai",
@@ -24,7 +22,6 @@
 "Precautions":  "No Outdoor Dining",
 "Website": "gourmetgulf.com" 
 },
-
 {
 "Id": 3,
 "Location": "Dubai",
@@ -36,7 +33,6 @@
 "Precautions":  "No Outdoor Dining",
 "Website":"tresind.com"
 },
-
 {
 "Id": 4,
 "Location": "Dubai",
@@ -48,7 +44,6 @@
 "Precautions": "Outdoor Dining",
 "Website": "amazonicorestaurant.com"
 },
-
 {
 "Id": 5,   
 "Location": "Dubai",
@@ -60,7 +55,6 @@
 "Precautions": "Outdoor Dining",
 "Website": "https://www.atlantis.com/dubai/restaurants/hakkasan?utm_source=googleplaces&utm_medium=location&utm_content=listings&utm_campaign=hakkasan"
 },
-
 {
 "Id": 6,
 "Location": "Tokyo",
@@ -72,7 +66,6 @@
 "Precautions": "No Outdoor Dining",
 "Website": "https://www.sakuratei.co.jp/en/"
 },
-
 {
 "Id": 7,
 "Location": "Tokyo",
@@ -84,7 +77,6 @@
 "Precautions": "No Outdoor Dining",
 "Website": "https://gyopao-shinjuku.com/"
 },
-
 {
 "Id": 8,
 "Location": "Tokyo",
@@ -96,7 +88,6 @@
 "Precautions":  "Outdoor Dining",
 "Website": "https://yakumosaryo.jp/e/"
 },
-
 {
 "Id": 9,
 "Location": "Tokyo",
@@ -108,7 +99,6 @@
 "Precautions":  "No Outdoor Dining",
 "Website": "https://kobebeef511.jp/en/"
 },
-
 {
 "Id": 10,
 "Location": "Tokyo",
@@ -120,7 +110,6 @@
 "Precautions": "No Outdoor Dining",
 "Website": "https://gurunavi.com/en/a143503/rst/?__ngt__=TT11cb87643005ac1e4a5a19UHtMMvxrhL_rrarwYvdejE"
 },
-
 {
 "Id": 11,
 "Location": "NYC",
@@ -132,7 +121,6 @@
 "Precautions": "Outdoor Dining" ,
 "Website": "https://www.vestrynyc.com/"
 },
-
 {
 "Id": 12,
 "Location": "NYC",
@@ -143,7 +131,6 @@
 "Image": "https://resizer.otstatic.com/v2/photos/wide-huge/1/25852906.jpg",
 "Website": "https://www.gabrielkreuthernyc.com/"
 },
-
 {
 "Id": 13,
 "Name": "Le Bernardin",
@@ -154,7 +141,6 @@
 "Precautions":  "No Outdoor Dining",
 "Website": "https://www.le-bernardin.com/"
 },
-
 {
 "Id": 14,
 "Name": "Momofuku Ko",
@@ -165,7 +151,6 @@
 "Precautions":  "Outdoor Dining",
 "Website": "https://ko.momofuku.com/"
 },
-
 {
 "Id": 15,
 "Name": "ISODI",
@@ -176,5 +161,4 @@
 "Precautions":  "No Outdoor Dining",
 "Website": "https://www.isodinyc.com/"
 }
-
 ]}
