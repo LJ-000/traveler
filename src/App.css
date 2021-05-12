@@ -3,6 +3,20 @@
   width: 100vw;
   height: 100vh;
 }
+.cards {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
+   
+  display: grid;
+   
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
+
+
+
 button:hover {
   cursor: pointer;
 }
@@ -111,6 +125,12 @@ button:hover {
 
   }
 
+}
+.card {
+  min-width: 3rem;
+  max-width: 15rem;
+  min-height: 3rem;
+  max-height: 35rem;
 }
 .App-header {
   background-color: #282c34;
