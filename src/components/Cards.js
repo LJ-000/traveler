@@ -1,4 +1,5 @@
 import React from 'react'
+import {Grid} from "@material-ui/core"
 import {Card, CardText, CardBody, CardLink,CardTitle, CardSubtitle} from 'reactstrap';
 
  export const Cards = (props) => {
@@ -16,6 +17,7 @@ import {Card, CardText, CardBody, CardLink,CardTitle, CardSubtitle} from 'reacts
         //              </div>
    
         <div className="card">
+            <Grid item xs ={18} sm={24}>
         <Card>
           <CardBody>
             <CardTitle tag="h5">{props.restaurant.Name}</CardTitle>
@@ -28,7 +30,7 @@ import {Card, CardText, CardBody, CardLink,CardTitle, CardSubtitle} from 'reacts
             <CardLink href="#">{props.restaurant.Website}</CardLink>
           </CardBody>
         </Card>
-       
+       </Grid>
         </div>   
        
     )
