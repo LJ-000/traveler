@@ -17,7 +17,7 @@ import {Card, CardText, CardBody, CardLink,CardTitle, CardSubtitle} from 'reacts
         //              </div>
    
         <div className="card">
-            <Grid item xs ={18} sm={24}>
+            <Grid item >
         <Card>
           <CardBody>
             <CardTitle tag="h5">{props.restaurant.Name}</CardTitle>

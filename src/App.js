@@ -4,6 +4,7 @@ import './App.css';
 import CardContainer from './components/CardContainer'
 import Home from './components/Home'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from './components/NavBar'
 // import {Cards} from './components/Cards'
 
 const BASE_URL = "http://localhost:3000/restaurants/"
@@ -41,13 +42,14 @@ changeFilter = (filter) => this.setState({filter: filter})
  render () {
   return (
     <div className="App">
+      <NavBar/>
     <Switch>
       <Route path="/restaurants">
       <CardContainer restaurants ={this.state.restaurants}/>
       </Route>
     </Switch>
     <Route path="/" component ={Home} />
-
+    
     </div>
    )
   }
