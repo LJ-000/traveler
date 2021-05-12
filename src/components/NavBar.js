@@ -18,8 +18,6 @@ const NavBar =(props) => {
                    <Link to="/restaurants">
                    <a  href="restaurant">  Restaurant </a>
                    </Link>
-                   <a href ="filter"> Filter </a>
-                   
                    </div>
                    <button onClick={()=>setShowLinks(!showLinks)}>
                        {""}

@@ -112,7 +112,7 @@
 },
 {
 "Id": 11,
-"Location": "NYC",
+"Location": "New York City",
 "Name": "Vestry",
 "Price": "$$$$",
 "Ratings":" 5 Stars",
@@ -123,7 +123,7 @@
 },
 {
 "Id": 12,
-"Location": "NYC",
+"Location": "New York City",
 "Name": "abriel Kreuther",
 "Price": "$$$$",
 "Ratings": "4.6 Stars",
@@ -133,6 +133,7 @@
 },
 {
 "Id": 13,
+"Location": "New York City",
 "Name": "Le Bernardin",
 "Price": "$$$$",
 "Ratings": "4.7 Stars",
@@ -143,6 +144,7 @@
 },
 {
 "Id": 14,
+"Location": "New York City",
 "Name": "Momofuku Ko",
 "Price": "$$$$",
 "Ratings": "4.5 Stars",
@@ -153,6 +155,7 @@
 },
 {
 "Id": 15,
+"Location": "New York City",
 "Name": "ISODI",
 "Price": "$$$",
 "Ratings": "4.5 Stars",

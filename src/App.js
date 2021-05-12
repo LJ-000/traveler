@@ -30,33 +30,26 @@ componentDidMount(){
 //   display: CardContainer
 // })
 
+changeFilter = (filter) => this.setState({filter: filter})
+
+// stocksToDisplay = () => {
+//   let displayCards = [...this.state.restaurants]
+//   if(this.state.filter !== "All"){
+//     displayCards= this.state.restaurants.filter(restaurant => restaurant.type === this.state.filter)
+//   }
 
  render () {
   return (
     <div className="App">
-      {/* <header className="App-header">
-      </header> */}
-      {/* <Switch>
-        <Route path="/restaurants/:id" render={(props) => {
-          const resId = props.match.params.id
-          const resData = this.state.restaurants.find(res => res.id === resId)
-          return resData ? <Cards resData={resData} /> : null
-        }}> */}
-          
-        {/* </Route> */}
-      {/* </Switch> */}
     <Switch>
       <Route path="/restaurants">
       <CardContainer restaurants ={this.state.restaurants}/>
       </Route>
     </Switch>
-    <Route path="/" component ={Home}/>
-      <div>
-      
-       
-      </div>
+    <Route path="/" component ={Home} />
+
     </div>
    )
   }
-
 }
+  // changeFilter={this.changeFilter}
