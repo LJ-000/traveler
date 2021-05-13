@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import '../App.css'
 import ReorderIcon from '@material-ui/icons/Reorder';
+import { HiOutlinePaperAirplane } from "react-icons/hi";
+
 
 import {Link} from 'react-router-dom'
 
@@ -20,7 +22,7 @@ const NavBar =(props) => {
                    <a href="/home"> Home </a>
                    <a href="/feedback"> Reviews </a>
                    <Link to="/restaurants">
-                   <a  href="restaurant">  Restaurant </a>
+                   <a  href="restaurant">  Restaurants </a>
                    </Link>
                    </div>
                    <button onClick={()=>setShowLinks(!showLinks)}>
@@ -28,7 +30,9 @@ const NavBar =(props) => {
                        <ReorderIcon/>
                    </button>
             </div>
-
+            <div className="rightSide">
+                The Traveler 
+            </div>
             
            </div>
 

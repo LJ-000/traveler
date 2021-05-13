@@ -33,11 +33,13 @@ componentDidMount(){
 
 changeFilter = (filter) => this.setState({filter: filter})
 
-// stocksToDisplay = () => {
-//   let displayCards = [...this.state.restaurants]
-//   if(this.state.filter !== "All"){
-//     displayCards= this.state.restaurants.filter(restaurant => restaurant.type === this.state.filter)
-//   }
+cardsDisplay = () => {
+  let displayCards = [...this.state.restaurants]
+  if(this.state.filter !== "All"){
+    displayCards= this.state.restaurants.filter(restaurant => restaurant.type === this.state.filter)
+    displayCards()
+  }
+}
 
  render () {
   return (
@@ -45,7 +47,7 @@ changeFilter = (filter) => this.setState({filter: filter})
       <NavBar/>
     <Switch>
       <Route path="/restaurants">
-      <CardContainer restaurants ={this.state.restaurants}/>
+      <CardContainer changeFilter={this.changeFilter} restaurants ={this.state.restaurants}/>
       </Route>
     </Switch>
     <Route path="/" component ={Home} />

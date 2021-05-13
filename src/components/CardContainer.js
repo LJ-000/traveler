@@ -4,12 +4,7 @@ import Button from './Button'
 import {Grid} from "@material-ui/core"
 import SearchIcon from '@material-ui/icons/Search';
 
-
-
-
-
 const CardContainer = (props, changeFilter) => {
-
    
        return (
         
@@ -20,8 +15,6 @@ const CardContainer = (props, changeFilter) => {
                 <SearchIcon/>
                  </button>
                </div>
-
-
 
                <div>
                <label>
