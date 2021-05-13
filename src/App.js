@@ -5,6 +5,7 @@ import CardContainer from './components/CardContainer'
 import Home from './components/Home'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/NavBar'
+
 // import {Cards} from './components/Cards'
 
 const BASE_URL = "http://localhost:3000/restaurants/"
@@ -14,7 +15,8 @@ export default class App extends Component {
 
  state = {
    restaurants:[],
-   display: "NavBar"
+   display: "NavBar",
+   searchText: ""
  }
  
 
@@ -26,6 +28,11 @@ componentDidMount(){
     restaurants : restaurants
    }))
  }
+   handleSearchtext = (text) => {
+this.setState ({
+  searchText: text
+})
+   }
 // handleClickRestaurants =()=>{
 // this.setState ({
 //   display: CardContainer
@@ -33,27 +40,32 @@ componentDidMount(){
 
 changeFilter = (filter) => this.setState({filter: filter})
 
-cardsDisplay = () => {
-  let displayCards = [...this.state.restaurants]
-  if(this.state.filter !== "All"){
-    displayCards= this.state.restaurants.filter(restaurant => restaurant.type === this.state.filter)
-    displayCards()
-  }
-}
-
+// stocksToDisplay = () => {
+//   let displayCards = [...this.state.restaurants]
+//   if(this.state.filter !== "All"){
+//     displayCards= this.state.restaurants.filter(restaurant => restaurant.type === this.state.filter)
+//   }
+// filterRestaurant = ()=> {
+//   const allFiltered = this.state.restaurants.filter(restaurant => restaurant.Name.includes(this.state.searchText))
+//   return allFiltered
+// }
  render () {
+  // const filteredRestaurants = this.state.restaurants.filter(restaurantObj => restaurantObj.Name.includes(this.state.searchText.toLowerCase()) || restaurantObj.Name.toLowerCase().includes(this.state.searchText.toLowerCase()))
   return (
     <div className="App">
       <NavBar/>
     <Switch>
       <Route path="/restaurants">
-      <CardContainer changeFilter={this.changeFilter} restaurants ={this.state.restaurants}/>
+      <CardContainer 
+       handleSearchtext={this.handleSearchtext} 
+      //  restaurants ={this.filterRestaurant()} 
+      restaurants={this.state.restaurants}
+       />
       </Route>
     </Switch>
     <Route path="/" component ={Home} />
-    
+   
     </div>
    )
   }
 }
-  // changeFilter={this.changeFilter}

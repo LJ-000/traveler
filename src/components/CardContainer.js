@@ -1,42 +1,32 @@
 import React from 'react'
 import {Cards} from './Cards'
-import Button from './Button'
 import {Grid} from "@material-ui/core"
-import SearchIcon from '@material-ui/icons/Search';
+import SearchBar from './SearchBar'
+import Reviews from './Reviews'
 
-const CardContainer = (props, changeFilter) => {
+
+
+
+ const CardContainer = (props) => {
+
    
        return (
         
-           <section>
-               <div className ="rightSide"> 
-            <input onChange={props.handleSearch} type="text" placeholder="Search Restaurants"/>
-            <button> 
-                <SearchIcon/>
-                 </button>
-               </div>
-
+           <>
+               <SearchBar {...props}/>
                <div>
-               <label>
-                <strong>Destination:</strong>
-                <select onChange={(e) => changeFilter(e.target.value)}>
-                <option value="All">All</option>
-                <option value="Dubai">Dubai</option>
-                <option value="New York City">New York City</option>
-                <option value="Tokyo">Tokyo</option>
-                </select>
-                </label>  
-               </div>
-               
-               <Grid  container justify="center">
+            <Grid  container justify="center">
             
             {props.restaurants.map(restaurantObj => <Cards restaurant ={restaurantObj} key ={restaurantObj.Id}/>)}
             
             </Grid >
-            
-             </section>
+            <div>
+               <Reviews/>
+            </div>
+            </div>
+           </>
+             
        )
-   
+       }
 
-}
 export default CardContainer
