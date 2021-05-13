@@ -14,8 +14,9 @@ export default class App extends Component {
 
  state = {
    restaurants:[],
-   display: "NavBar"
- }
+   display: "NavBar",
+   filter: "All"
+}
  
 
 componentDidMount(){
@@ -36,18 +37,21 @@ changeFilter = (filter) => this.setState({filter: filter})
 cardsDisplay = () => {
   let displayCards = [...this.state.restaurants]
   if(this.state.filter !== "All"){
-    displayCards= this.state.restaurants.filter(restaurant => restaurant.type === this.state.filter)
-    displayCards()
-  }
+    displayCards= this.state.restaurants.filter(restaurant => restaurant.Location === this.state.filter)
+  return displayCards }
+  else {
+  return displayCards
+}
 }
 
  render () {
+  //  console.log (this.cardsDisplay())
   return (
     <div className="App">
       <NavBar/>
     <Switch>
       <Route path="/restaurants">
-      <CardContainer changeFilter={this.changeFilter} restaurants ={this.state.restaurants}/>
+      <CardContainer changeFilter={this.changeFilter} restaurants ={this.cardsDisplay()}/>
       </Route>
     </Switch>
     <Route path="/" component ={Home} />

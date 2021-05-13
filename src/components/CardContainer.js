@@ -4,13 +4,13 @@ import Button from './Button'
 import {Grid} from "@material-ui/core"
 import SearchIcon from '@material-ui/icons/Search';
 
-const CardContainer = (props, changeFilter) => {
+const CardContainer = ({ changeFilter, handleSearch, restaurants }) => {
    
        return (
         
            <section>
                <div className ="rightSide"> 
-            <input onChange={props.handleSearch} type="text" placeholder="Search Restaurants"/>
+            <input onChange={handleSearch} type="text" placeholder="Search Restaurants"/>
             <button> 
                 <SearchIcon/>
                  </button>
@@ -18,7 +18,7 @@ const CardContainer = (props, changeFilter) => {
 
                <div>
                <label>
-                <strong>Destination:</strong>
+                <strong className = "destination">Destination:</strong>
                 <select onChange={(e) => changeFilter(e.target.value)}>
                 <option value="All">All</option>
                 <option value="Dubai">Dubai</option>
@@ -30,7 +30,7 @@ const CardContainer = (props, changeFilter) => {
                
                <Grid  container justify="center">
             
-            {props.restaurants.map(restaurantObj => <Cards restaurant ={restaurantObj} key ={restaurantObj.Id}/>)}
+            {restaurants.map(restaurantObj => <Cards restaurant ={restaurantObj} key ={restaurantObj.Id}/>)}
             
             </Grid >
             
