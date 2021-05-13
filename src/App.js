@@ -5,6 +5,7 @@ import CardContainer from './components/CardContainer'
 import Home from './components/Home'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/NavBar'
+
 // import {Cards} from './components/Cards'
 
 const BASE_URL = "http://localhost:3000/restaurants/"
@@ -15,8 +16,9 @@ export default class App extends Component {
  state = {
    restaurants:[],
    display: "NavBar",
-   filter: "All"
-}
+   filter: "All",
+   searchText: ""
+ }
  
 
 componentDidMount(){
@@ -27,6 +29,11 @@ componentDidMount(){
     restaurants : restaurants
    }))
  }
+//    handleSearchtext = (text) => {
+// this.setState ({
+//   searchText: text
+// })
+//    }
 // handleClickRestaurants =()=>{
 // this.setState ({
 //   display: CardContainer
@@ -38,14 +45,20 @@ cardsDisplay = () => {
   let displayCards = [...this.state.restaurants]
   if(this.state.filter !== "All"){
     displayCards= this.state.restaurants.filter(restaurant => restaurant.Location === this.state.filter)
-  return displayCards }
+  return displayCards.filter }
   else {
-  return displayCards
+  return displayCards.searchText
 }
 }
 
- render () {
-  //  console.log (this.cardsDisplay())
+// filterRestaurant = ()=> {
+//   const allFiltered = this.state.restaurants.filter(restaurant => restaurant.Name.includes(this.state.searchText))
+//   return allFiltered
+// }
+  // const filteredRestaurants = this.state.restaurants.filter(restaurantObj => restaurantObj.Name.includes(this.state.searchText.toLowerCase()) || restaurantObj.Name.toLowerCase().includes(this.state.searchText.toLowerCase()))
+  
+  render () {
+    //  console.log (this.cardsDisplay())
   return (
     <div className="App">
       <NavBar/>
@@ -55,9 +68,8 @@ cardsDisplay = () => {
       </Route>
     </Switch>
     <Route path="/" component ={Home} />
-    
+   
     </div>
    )
   }
 }
-  // changeFilter={this.changeFilter}
