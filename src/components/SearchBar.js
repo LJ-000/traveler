@@ -3,7 +3,7 @@ import SearchIcon from '@material-ui/icons/Search';
 const SearchBar = (props) => {
   return (
            <div className ="search-bar"> 
-            <input onChange = {(e) => props.handleSearchtext(e.target.value)} type="text" placeholder="Search Restaurants"/>
+            <input onChange = {(e) => props.handleSearch(e.target.value)} type="text" placeholder="Search Restaurants"/>
             <button> 
                 <SearchIcon/>
                  </button>

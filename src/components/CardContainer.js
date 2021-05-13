@@ -2,20 +2,15 @@ import React from 'react'
 import {Cards} from './Cards'
 import Button from './Button'
 import {Grid} from "@material-ui/core"
-import SearchIcon from '@material-ui/icons/Search';
+import SearchBar from './SearchBar'
+
 
 const CardContainer = ({ changeFilter, restaurants, handleSearch }) => {
    
        return (
         
            <section>
-               <div className ="rightSide"> 
-                <input onChange={handleSearch} type="text" placeholder="Search Restaurants"/>
-                <button> 
-                <SearchIcon/>
-                 </button>
-               </div>
-
+               <SearchBar handleSearch={handleSearch}/>
                <div>
                <label>
                 <strong>Destination:</strong>
