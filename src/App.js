@@ -5,10 +5,11 @@ import CardContainer from './components/CardContainer'
 import Home from './components/Home'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/NavBar'
+import { SignalCellularNull } from '@material-ui/icons';
 
 // import {Cards} from './components/Cards'
 
-const BASE_URL = "http://localhost:3000/restaurants/"
+const BASE_URL = "http://localhost:3000/restaurants"
 
 
 export default class App extends Component {
@@ -45,9 +46,12 @@ cardsDisplay = () => {
   let displayCards = [...this.state.restaurants]
   if(this.state.filter !== "All"){
     displayCards= this.state.restaurants.filter(restaurant => restaurant.Location === this.state.filter)
-  return displayCards.filter }
+  return displayCards}
+//   displayCards ( searchText = (text) => text.Name.toLowerCase().includes(this.state.searchText))
+// }
   else {
-  return displayCards.searchText
+// debugger
+  return displayCards
 }
 }
 
@@ -58,7 +62,7 @@ cardsDisplay = () => {
   // const filteredRestaurants = this.state.restaurants.filter(restaurantObj => restaurantObj.Name.includes(this.state.searchText.toLowerCase()) || restaurantObj.Name.toLowerCase().includes(this.state.searchText.toLowerCase()))
   
   render () {
-    //  console.log (this.cardsDisplay())
+     console.log (this.cardsDisplay())
   return (
     <div className="App">
       <NavBar/>

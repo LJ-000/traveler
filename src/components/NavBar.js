@@ -22,7 +22,7 @@ const NavBar =(props) => {
                    <a href="/home"> Home </a>
                    <a href="/feedback"> Reviews </a>
                    <Link to="/restaurants">
-                   <a  href="restaurant">  Restaurants </a>
+                   <a  href="restaurant"> Restaurants </a>
                    </Link>
                    </div>
                    <button onClick={()=>setShowLinks(!showLinks)}>
