@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react' 
 
 
 
@@ -8,11 +8,9 @@ const Home = () => {
             <div className="home-bar">
             </div>
            <div className="float-container">
-            <a>Welcome to The Traveler </a>
-
-            <a>Connecting you with premier dining experiences throughout the globe</a>
-            
-            <a>Travel well, eat better</a>
+            <text className="line1">Welcome to The Traveler{'\n'}</text>             
+            <text className="line2">Connecting you with premier dining experiences throughout the globe{'\n'}</text>
+            <text className="line3">Travel well, eat better{'\n'}</text>
            </div>
            </>
          )

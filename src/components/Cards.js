@@ -1,6 +1,7 @@
 import React from 'react'
 import {Grid} from "@material-ui/core"
 import {Card, CardText, CardBody, CardLink,CardTitle, CardSubtitle} from 'reactstrap';
+import { propTypes } from 'react-bootstrap/esm/Image';
 
  export const Cards = (props) => {
 
@@ -25,9 +26,12 @@ import {Card, CardText, CardBody, CardLink,CardTitle, CardSubtitle} from 'reacts
           </CardBody>
           <img width="100%" src="/assets/318x180.svg" alt="Card image cap"  src = {props.restaurant.Image}/>
           <CardBody>
-            <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-            <CardLink href="#">Card Link</CardLink>
-            <CardLink href="#">{props.restaurant.Website}</CardLink>
+            <CardText>Location: {props.restaurant.Location}</CardText>
+            <CardText>Price Point: {props.restaurant.Price}</CardText>
+            <CardText>Traveler Ratings: {props.restaurant.Ratings}</CardText>
+            <CardText>Outdoor Dining: {props.restaurant.Precautions}</CardText>
+            {/* <CardLink href="#">Card Link</CardLink> */}
+            <CardLink href={props.restaurant.Website}Reservations></CardLink>
           </CardBody>
         </Card>
        </Grid>

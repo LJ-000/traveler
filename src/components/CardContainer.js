@@ -5,15 +5,15 @@ import {Grid} from "@material-ui/core"
 import SearchBar from './SearchBar'
 
 
-const CardContainer = ({ changeFilter, restaurants, handleSearch }) => {
+const CardContainer = ({ changeFilter, restaurants, handleSearchtext }) => {
    
        return (
-        
-           <section>
-               <SearchBar handleSearch={handleSearch}/>
-               <div>
+        <>
+           <section className="search-area">
+               <SearchBar handleSearchtext={handleSearchtext}/>
+               <div className="filter-destination">
                <label>
-                <strong>Destination:</strong>
+                <strong className="destination">Destination:</strong>
                 <select onChange={(e) => changeFilter(e.target.value)}>
                 <option value="All">All</option>
                 <option value="Dubai">Dubai</option>
@@ -22,12 +22,13 @@ const CardContainer = ({ changeFilter, restaurants, handleSearch }) => {
                 </select>
                 </label>  
                </div>
-               
+               </section>
+               <div>
                 <Grid container justify="center">
                 {restaurants.map(restaurantObj => <Cards restaurant ={restaurantObj} key ={restaurantObj.Id}/>)}
                 </Grid >
-            
-             </section>
+                </div>
+                </>
        )
 }
 export default CardContainer
