@@ -20,7 +20,9 @@ const NavBar =(props) => {
                    <div className = "links" id = {showLinks ? "hidden" : ""}>
                       
                    <a href="/home"> Home </a>
-                   <a href="/feedback"> Reviews </a>
+                   <Link to="/feedback">
+                   <a href="/feedback"> Add me! </a>
+                   </Link>
                    <Link to="/restaurants">
                    <a  href="restaurant"> Restaurants </a>
                    </Link>

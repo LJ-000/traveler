@@ -94,6 +94,32 @@ button:hover {
   pointer-events: none;
 }
 
+
+.textarea{
+background-color: rgb(243, 217, 235); 
+    color: rgb(29, 116, 75); 
+    font-family: Satisfy;
+    font-size: 18px;
+    opacity: 0.9; 
+    margin-top: 150px;
+    margin-left: 300px;
+    margin-right: 90px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    width: 40vw;
+    height: 20vh;
+  
+  }
+
+
+
+
+
+
+
 @media only screen and (max-width: 850px) {
   .Navbar .leftSide .links a { 
     font-size: 15;

@@ -3,9 +3,10 @@ import {Cards} from './Cards'
 import Button from './Button'
 import {Grid} from "@material-ui/core"
 import SearchBar from './SearchBar'
+import RestaurantForm from './RestaurantForm'
 
 
-const CardContainer = ({ changeFilter, restaurants, handleSearch }) => {
+const CardContainer = ({ changeFilter, restaurants, handleSearch, addRestaurant }) => {
    
        return (
         
@@ -26,6 +27,7 @@ const CardContainer = ({ changeFilter, restaurants, handleSearch }) => {
                 <Grid container justify="center">
                 {restaurants.map(restaurantObj => <Cards restaurant ={restaurantObj} key ={restaurantObj.Id}/>)}
                 </Grid >
+                <RestaurantForm addRestaurant ={addRestaurant}/>
             
              </section>
        )

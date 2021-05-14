@@ -6,10 +6,12 @@ import Home from './components/Home'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/NavBar'
 import { SignalCellularNull } from '@material-ui/icons';
+import ReviewsContainer from './components/RestaurantForm'
 
 // import {Cards} from './components/Cards'
 
 const BASE_URL = "http://localhost:3000/restaurants"
+const REVIEW_URL = "http://localhost:3000/feedback"
 
 
 export default class App extends Component {
@@ -18,21 +20,33 @@ export default class App extends Component {
    restaurants:[],
    display: "NavBar",
    filter: "All",
-   searchText: ""
+   searchText: "",
+   feedback: []
+   
  }
  
 
 componentDidMount(){
-    fetch(BASE_URL)
-  .then(res => res.json())
-  .then(restaurants => this.setState({
-    
+  fetch(BASE_URL)
+.then(res => res.json())
+.then(restaurants => this.setState({
     restaurants : restaurants
    }))
  }
+//  componentDidMount(){
+//   fetch(REVIEW_URL)
+// .then(res => res.json())
+// .then(feedback => this.setState({
+  
+//  feedback : feedback
+//  }))
+// }
    handleSearchText = (text) =>{
   this.setState({searchText: text})
 }
+addRestaurant = restaurant => this.setState({
+  restaurants: [...this.state.restaurants, restaurant]
+  })
    
 // handleClickRestaurants =()=>{
 // this.setState ({
@@ -44,15 +58,15 @@ changeFilter = (filter) => this.setState({filter: filter})
 cardsDisplay = () => {
   let displayCards = [...this.state.restaurants]
   if(this.state.filter !== "All"){
-    displayCards= this.state.restaurants.filter(restaurant => restaurant.Location === this.state.filter )
-    return displayCards}
+    displayCards= this.state.restaurants?.filter(restaurant => restaurant.Location === this.state.filter)
+  return displayCards.filter(restaurant => restaurant.Name?.toLowerCase().includes(this.state.searchText))}
 //   displayCards ( searchText = (text) => text.Name.toLowerCase().includes(this.state.searchText))
 // }
   else {
 // debugger
-  return displayCards
+  return displayCards.filter(restaurant => restaurant.Name?.toLowerCase().includes(this.state.searchText))}
 }
-}
+
 
 // filterRestaurant = ()=> {
 //   const allFiltered = this.state.restaurants.filter(restaurant => restaurant.Name.includes(this.state.searchText))
@@ -62,16 +76,19 @@ cardsDisplay = () => {
   
   render () {
      console.log (this.cardsDisplay())
-   return (
+  return (
     <div className="App">
       <NavBar/>
     <Switch>
       <Route path="/restaurants">
-      <CardContainer changeFilter={this.changeFilter} restaurants ={this.cardsDisplay()} handleSearch ={this.handleSearchText}/>
+      <CardContainer changeFilter={this.changeFilter} addRestaurant={this.addRestaurant} restaurants ={this.cardsDisplay()} handleSearch ={this.handleSearchText}/>
       </Route>
+      <Route path="/feedback">
+   <ReviewsContainer addRestaurant={this.addRestaurant} feedback ={this.state.feedback}/>
+   </Route>
+   <Route path="/" component ={Home} />
     </Switch>
-    <Route path="/" component ={Home} />
-   
+    
     </div>
    )
   }
