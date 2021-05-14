@@ -41,7 +41,7 @@ componentDidMount(){
 //  feedback : feedback
 //  }))
 // }
-   handleSearchText = (text) =>{
+   handleSearchtext = (text) =>{
   this.setState({searchText: text})
 }
 addRestaurant = restaurant => this.setState({
@@ -58,13 +58,14 @@ changeFilter = (filter) => this.setState({filter: filter})
 cardsDisplay = () => {
   let displayCards = [...this.state.restaurants]
   if(this.state.filter !== "All"){
-    displayCards= this.state.restaurants?.filter(restaurant => restaurant.Location === this.state.filter)
-  return displayCards.filter(restaurant => restaurant.Name?.toLowerCase().includes(this.state.searchText))}
-//   displayCards ( searchText = (text) => text.Name.toLowerCase().includes(this.state.searchText))
+    displayCards= this.state.restaurants.filter(restaurant => restaurant.Location === this.state.filter )
+    return displayCards.filter(restaurant => restaurant.Name?.toLowerCase().includes(this.state.searchText))} 
+  // displayCards ( searchText = (text) => text.Name.toLowerCase().includes(this.state.searchText))
 // }
   else {
 // debugger
-  return displayCards.filter(restaurant => restaurant.Name?.toLowerCase().includes(this.state.searchText))}
+  return displayCards.filter (restaurant => restaurant.Name?.toLowerCase().includes(this.state.searchText))
+}
 }
 
 
@@ -81,7 +82,7 @@ cardsDisplay = () => {
       <NavBar/>
     <Switch>
       <Route path="/restaurants">
-      <CardContainer changeFilter={this.changeFilter} addRestaurant={this.addRestaurant} restaurants ={this.cardsDisplay()} handleSearch ={this.handleSearchText}/>
+      <CardContainer changeFilter={this.changeFilter} addRestaurant={this.addRestaurant} restaurants ={this.cardsDisplay()} handleSearchtext ={this.handleSearchtext}/>
       </Route>
       <Route path="/feedback">
    <ReviewsContainer addRestaurant={this.addRestaurant} feedback ={this.state.feedback}/>

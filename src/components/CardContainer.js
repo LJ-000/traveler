@@ -6,15 +6,15 @@ import SearchBar from './SearchBar'
 import RestaurantForm from './RestaurantForm'
 
 
-const CardContainer = ({ changeFilter, restaurants, handleSearch, addRestaurant }) => {
+const CardContainer = ({ changeFilter, restaurants, handleSearchtext, addRestaurant }) => {
    
        return (
-        
-           <section>
-               <SearchBar handleSearch={handleSearch}/>
-               <div>
+        <>
+           <section className="search-area">
+               <SearchBar handleSearchtext={handleSearchtext}/>
+               <div className="filter-destination">
                <label>
-                <strong>Destination:</strong>
+                <strong className="destination">Destination:</strong>
                 <select onChange={(e) => changeFilter(e.target.value)}>
                 <option value="All">All</option>
                 <option value="Dubai">Dubai</option>
@@ -23,13 +23,16 @@ const CardContainer = ({ changeFilter, restaurants, handleSearch, addRestaurant 
                 </select>
                 </label>  
                </div>
-               
+               </section>
+               <div>
                 <Grid container justify="center">
                 {restaurants.map(restaurantObj => <Cards restaurant ={restaurantObj} key ={restaurantObj.Id}/>)}
                 </Grid >
                 <RestaurantForm addRestaurant ={addRestaurant}/>
-            
-             </section>
+                </div>
+             
+                
+            </>
        )
 }
 export default CardContainer

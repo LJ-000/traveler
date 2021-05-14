@@ -6,9 +6,9 @@
       "Name": "Social House",
       "Price": "$$$",
       "Ratings": "4 Stars",
-      "Type": "Chinese",
+      "Type": "Chinese, Asian, Fusion",
       "Image": "https://fryingpanadventures.com/wp-content/uploads/2020/10/image-131.jpeg",
-      "Precautions": "Outdoor Dining",
+      "Precautions": "Yes, patio dining is available. All guests are asked to wear a face mask",
       "Website": "https://www.alabbarenterprises.com/brands/social-house"
     },
     {
@@ -17,9 +17,9 @@
       "Name": "Texas De Brazil",
       "Price": "$$",
       "Ratings": "5 Stars",
-      "Type": "Brazilian",
+      "Type": "Brazilian, Grill, Steakhouse",
       "Image": "https://d1bv4heaa2n05k.cloudfront.net/user-images/1460016524839/shutterstock-309267611_main_1460016531797.jpeg",
-      "Precautions": "No Outdoor Dining",
+      "Precautions": "No outdoor dining at this time but social distancing is encouraged, ",
       "Website": "gourmetgulf.com"
     },
     {
@@ -28,9 +28,9 @@
       "Name": "Tresind Dubai",
       "Price": "$$$$",
       "Ratings": "5 stars",
-      "Type": "Indian",
+      "Type": "Indian, Fusion",
       "Image": "https://www.onceuponachef.com/images/2012/09/Chicken-Kebabs.jpg",
-      "Precautions": "No Outdoor Dining",
+      "Precautions": "No outdoor dining at this time but social distancing is encouraged",
       "Website": "tresind.com"
     },
     {
@@ -39,9 +39,9 @@
       "Name": "Amazonico Dubai",
       "Price": "$$$",
       "Ratings": "5 Stars",
-      "Type": "Spanish",
+      "Type": "Spanish, Vegetarian-Friendly",
       "Image": "https://dynaimage.cdn.cnn.com/cnn/q_auto,w_900,c_fill,g_auto,h_506,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F160929095729-essential-spanish-dish-fideua-brindisa.jpg",
-      "Precautions": "Outdoor Dining",
+      "Precautions": "Yes, patio dining is available. All guests are asked to wear a face mask",
       "Website": "amazonicorestaurant.com"
     },
     {
@@ -50,9 +50,9 @@
       "Name": "Hakkasan Dubai",
       "Price": "$$",
       "Ratings": "5 Stars",
-      "Type": "Chinese",
+      "Type": "Chinese, Asian, Grill",
       "Image": "https://i.ndtvimg.com/i/2017-08/noodles-620x350_620x350_41502436420.jpg",
-      "Precautions": "Outdoor Dining",
+      "Precautions": "Yes,patio dining is available. All guests are asked to wear a face mask",
       "Website": "https://www.atlantis.com/dubai/restaurants/hakkasan?utm_source=googleplaces&utm_medium=location&utm_content=listings&utm_campaign=hakkasan"
     },
     {
@@ -63,7 +63,7 @@
       "Ratings": "4.5 Stars",
       "Type": "Japanese, Asian, Grill",
       "Image": "https://media-cdn.tripadvisor.com/media/photo-s/18/96/ca/94/caption.jpg",
-      "Precautions": "No Outdoor Dining",
+      "Precautions": "No outdoor dining at this time but social distancing is encouraged",
       "Website": "https://www.sakuratei.co.jp/en/"
     },
     {
@@ -74,7 +74,7 @@
       "Ratings": "5 Stars",
       "Type": "Chinese, Asian, Taiwanese",
       "Image": "https://media-cdn.tripadvisor.com/media/photo-s/1b/e3/b4/a1/caption.jpg",
-      "Precautions": "No Outdoor Dining",
+      "Precautions": "No outdoor dining at this time but social distancing is encouraged",
       "Website": "https://gyopao-shinjuku.com/"
     },
     {
@@ -85,7 +85,7 @@
       "Ratings": "4.5 Stars",
       "Type": "Japanese, Japanese-Traditional Cuisine, Kaiseki",
       "Image": "https://media.timeout.com/images/102827727/630/472/image.jpg",
-      "Precautions": "Outdoor Dining",
+      "Precautions": "Yes, patio dining is available. All guests are asked to wear a face mask",
       "Website": "https://yakumosaryo.jp/e/"
     },
     {
@@ -96,7 +96,7 @@
       "Ratings": "4.5 Stars",
       "Type": "Japanese, Steakhouse, Asian",
       "Image": "https://cdn-japantimes.com/wp-content/uploads/2014/10/cg-restaurants-5112.jpg",
-      "Precautions": "No Outdoor Dining",
+      "Precautions": "No outdoor dining at this time but social distancing is encouraged",
       "Website": "https://kobebeef511.jp/en/"
     },
     {
@@ -107,7 +107,7 @@
       "Ratings": "5 Stars",
       "Type": "Japanese, Steakhouse, Barbeque",
       "Image": "https://media.cntraveler.com/photos/5c928d05bf833e107935b53e/16:9/w_2560%2Cc_limit/Han-no-Daidokoro_Mark-Parren-Taylor_2019-_TCO2998_MPT_HR.jpg",
-      "Precautions": "No Outdoor Dining",
+      "Precautions": "Yes, patio dining is available. All guests are asked to wear a face mask",
       "Website": "https://gurunavi.com/en/a143503/rst/?__ngt__=TT11cb87643005ac1e4a5a19UHtMMvxrhL_rrarwYvdejE"
     },
     {
@@ -118,7 +118,7 @@
       "Ratings": " 5 Stars",
       "Type": "Seafood, American",
       "Image": "https://2486634c787a971a3554-d983ce57e4c84901daded0f67d5a004f.ssl.cf1.rackcdn.com/the-vestry-full-site/media/the-vestry-restaurant-gallery-7-5f7c8ddc6562b.jpg",
-      "Precautions": "Outdoor Dining",
+      "Precautions": "Yes, patio dining is available. All guests are asked to wear a face mask",
       "Website": "https://www.vestrynyc.com/"
     },
     {
@@ -129,6 +129,7 @@
       "Ratings": "4.6 Stars",
       "Type": "French, Contemporary, Vegetarian-Friendly",
       "Image": "https://resizer.otstatic.com/v2/photos/wide-huge/1/25852906.jpg",
+      "Precautions": "Yes, patio dining is available. All guests are asked to wear a face mask",
       "Website": "https://www.gabrielkreuthernyc.com/"
     },
     {
@@ -139,7 +140,7 @@
       "Ratings": "4.7 Stars",
       "Type": "Seafood, French, Vegetarian-Friendly",
       "Image": "https://www.shawmut.com/assets/images/back_end/portfolio/1_1423232488_LeBernardin-NYC_4.jpg",
-      "Precautions": "No Outdoor Dining",
+      "Precautions": "No outdoor dining at this time but social distancing is encouraged",
       "Website": "https://www.le-bernardin.com/"
     },
     {
@@ -150,7 +151,7 @@
       "Ratings": "4.5 Stars",
       "Type": "International, Asian, Fusion",
       "Image": "https://rs.wescover.com/c_limit,f_auto,q_auto,w_500/v1/wescover-image-store/kqjtfw8k7ivufwuqyza0",
-      "Precautions": "Outdoor Dining",
+      "Precautions": "Yes, patio dining is available. All guests are asked to wear a face mask",
       "Website": "https://ko.momofuku.com/"
     },
     {
@@ -161,97 +162,19 @@
       "Ratings": "4.5 Stars",
       "Type": "Italian",
       "Image": "https://media.timeout.com/images/100262129/630/472/image.jpg",
-      "Precautions": "No Outdoor Dining",
+      "Precautions": "No outdoor dining at this time but social distancing is encouraged",
       "Website": "https://www.isodinyc.com/"
     },
     {
-      "Location": "gg",
-      "Image": "ffff",
-      "Name": "fff",
-      "Type": "tbny",
-      "Ratings": "ff",
-      "Price": "05",
-      "Precautions": "gttht",
+      "Location": "ghg",
+      "Image": "jjj",
+      "Name": "bh",
+      "Type": "j",
+      "Ratings": "kjj",
+      "Price": 0,
+      "Precautions": "ugu",
       "Website": "",
       "id": 16
-    },
-    {
-      "Location": "jh",
-      "Image": "hgcy",
-      "Name": " jhih",
-      "Type": "vjhv",
-      "Ratings": "hh",
-      "Price": "3",
-      "Precautions": "hbhh",
-      "Website": "",
-      "id": 17
-    },
-    {
-      "Location": "vgg",
-      "Image": "dddd",
-      "Name": "ddd",
-      "Type": "fff",
-      "Ratings": "ddd",
-      "Price": "4",
-      "Precautions": "dfffff",
-      "Website": "",
-      "id": 18
-    },
-    {
-      "Location": "jkbk",
-      "Image": "bj",
-      "Name": ",jbj",
-      "Type": "jkgi",
-      "Ratings": "jh",
-      "Price": "2",
-      "Precautions": "hkkh",
-      "Website": "",
-      "id": 19
-    },
-    {
-      "Location": "hguhg",
-      "Image": "jnjj",
-      "Name": "jhhjk",
-      "Type": "jbhkbj",
-      "Ratings": "nbjkb",
-      "Price": 0,
-      "Precautions": ",mm,m",
-      "Website": "",
-      "id": 20
-    },
-    {
-      "Location": "bk",
-      "Image": "jkbk",
-      "Name": "hvjh",
-      "Type": "bjk",
-      "Ratings": "jjk",
-      "Price": 0,
-      "Precautions": "nbk",
-      "Website": "",
-      "id": 21
-    },
-    {
-      "Location": "gyh",
-      "Image": "hh",
-      "Name": "huh",
-      "Type": "hhh",
-      "Ratings": "hh",
-      "Price": 0,
-      "Precautions": "hhh",
-      "Website": "",
-      "id": 22
-    }
-  ],
-  "feedback": [
-    {
-      "id": 1,
-      "name": "sarah",
-      "comment": "it was good"
-    },
-    {
-      "id": 2,
-      "name": "John",
-      "comment": "it can be better"
     }
   ]
 }
