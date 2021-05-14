@@ -26,7 +26,7 @@ sendRestaurantToServerAndState =(e)=>{
 }
     render() {
         return (
-          <section>
+          <section className="form">
             <div>
               <h4> Suggest Your favorite Restaurant</h4>
             </div>
@@ -37,7 +37,7 @@ sendRestaurantToServerAndState =(e)=>{
                 <input value = {this.state.Name} onChange={(e)=> this.setState({Name:e.target.value})}type="text" className="form-control mb-2 mr-sm-2" placeholder="Restaurant Name"/>
                   </div>
                 <div className="input-group mb-2 mr-sm-2">
-                    <input value = {this.state.Image}onChange={(e)=> this.setState({Image: e.target.value})} type="text" className="form-control" placeholder="image URL"/>
+                    <input value = {this.state.Image}onChange={(e)=> this.setState({Image: e.target.value})} type="text" className="form-control" placeholder="Image URL"/>
                 </div>
 
                          <div className="input-group mb-2 mr-sm-2">
@@ -45,15 +45,15 @@ sendRestaurantToServerAndState =(e)=>{
                 </div>
 
                 <div className="input-group mb-2 mr-sm-2">
-                    <input value = {this.state.Price}onChange={(e)=> this.setState({Price: e.target.value})}type="number" className="form-control" placeholder="price"/>
+                    <input value = {this.state.Price}onChange={(e)=> this.setState({Price: e.target.value})}type="number" className="form-control" placeholder="Price Point"/>
                 </div>
                 <div className="input-group mb-2 mr-sm-2">
-                    <input value = {this.state.Type}onChange={(e)=> this.setState({Type: e.target.value})} type="text" className="form-control" placeholder="restaurant type"/>
+                    <input value = {this.state.Type}onChange={(e)=> this.setState({Type: e.target.value})} type="text" className="form-control" placeholder="Restaurant Type"/>
                 </div>
 
 
                 <div className="input-group mb-2 mr-sm-2">
-                    <input value = {this.state.Precaution} onChange={(e)=> this.setState({Precautions: e.target.value})} type="text-area" className="form-control" placeholder="covid precautions"/>
+                    <input value = {this.state.Precaution} onChange={(e)=> this.setState({Precautions: e.target.value})} type="text-area" className="form-control" placeholder="Covid Precautions"/>
                 </div>
 
                 

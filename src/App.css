@@ -239,5 +239,20 @@ text-align: center;
       width: 60%;
       margin-right: 100px;
       margin-left: 300px;
-     
+}
+
+.form {
+  align-items: center;    
+  text-align:center;
+  display:flex;
+  margin-top: 100px;
+  margin-bottom: auto;
+  margin-left: 50px;
+  color:red;
+  font-family: Satisfy;
+
+}
+
+.form-inline ml-4 {
+  margin-left: 900px;
 }
