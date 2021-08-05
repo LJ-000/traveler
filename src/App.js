@@ -1,17 +1,15 @@
 import React, { Component } from 'react'
-import { Route, Switch, Link}  from 'react-router-dom'
+import { Route, Switch}  from 'react-router-dom'
 import './App.css';
 import CardContainer from './components/CardContainer'
 import Home from './components/Home'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/NavBar'
-import { SignalCellularNull } from '@material-ui/icons';
 import ReviewsContainer from './components/RestaurantForm'
 
-// import {Cards} from './components/Cards'
+import {Cards} from './components/Cards'
 
 const BASE_URL = "http://localhost:3000/restaurants"
-const REVIEW_URL = "http://localhost:3000/feedback"
 
 
 export default class App extends Component {
@@ -81,8 +79,8 @@ cardsDisplay = () => {
     <div className="App">
       <NavBar/>
     <Switch>
-      <Route path="/restaurants">
-      <CardContainer changeFilter={this.changeFilter} addRestaurant={this.addRestaurant} restaurants ={this.cardsDisplay()} handleSearchtext ={this.handleSearchtext}/>
+      <Route direct path="/restaurants">
+      <CardContainer changeFilter={this.changeFilter} restaurants ={this.cardsDisplay()} handleSearchtext ={this.handleSearchtext}/>
       </Route>
       <Route path="/feedback">
    <ReviewsContainer addRestaurant={this.addRestaurant} feedback ={this.state.feedback}/>

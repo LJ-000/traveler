@@ -1,6 +1,5 @@
 import React from 'react'
 import {Cards} from './Cards'
-import Button from './Button'
 import {Grid} from "@material-ui/core"
 import SearchBar from './SearchBar'
 import RestaurantForm from './RestaurantForm'
